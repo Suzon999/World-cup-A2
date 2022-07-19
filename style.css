@@ -153,3 +153,22 @@ hr {
     margin-left: 30px;
 
 }
+
+/*----------------------------- new tab pages----------------------- */
+.flag {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+
+.match {
+    width: 312px;
+    height: 242px;
+    border: 1px solid rgb(224, 221, 221);
+    border-radius: 10px;
+}
+
+.country {
+    text-align: center;
+}
