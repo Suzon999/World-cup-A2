@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Luxurious+Roman&family=Roboto:wght@400;500&family=Source+Sans+Pro&display=swap');
+
+body {
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.cotainer {
+    width: 1321px;
+    height: 646px;
+}
+
+/* --------------------
+  banner style 
+----------------- */
+.banner-section {
+    display: flex;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 180px;
+}
+
+.banner-section h1 {
+    font-size: 70px;
+
+}
+
+.banner-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-color {
+    background: #DD0000;
+    border-radius: 5px;
+    padding: 16px 25px;
+    color: white;
+}
+
+.banner-left {
+    width: 50%;
+    padding-left: 120px;
+}
+
+.banner-right {
+    width: 50%;
+}
+
+.banner-right img {
+    width: 581px;
+    height: 613px;
+}
+
+/*---------------------------
+      transfer style 
+--------------------------- */
+.button-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 312px;
+    height: 312px;
+    background-color: black;
+    border-radius: 10px;
+    flex-wrap: wrap;
+
+}
+
+.white-btn {
+    width: 264px;
+    height: 64px;
+    border-radius: 10px;
+}
+
+.btn-blog {
+    width: 264px;
+    height: 64px;
+    background: #DD0000;
+    border-radius: 10px;
+}
+
+.a-btn {
+    width: 264px;
+    height: 64px;
+    border-radius: 10px;
+    text-decoration: none;
+}
