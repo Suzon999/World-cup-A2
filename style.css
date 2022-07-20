@@ -38,6 +38,12 @@ body {
     border-radius: 5px;
     padding: 16px 25px;
     color: white;
+    margin-right: 20px;
+    transition: 1s;
+}
+
+.btn-color:hover {
+    background-color: rgb(13, 134, 221);
 }
 
 .banner-left {
@@ -52,6 +58,13 @@ body {
 .banner-right img {
     width: 581px;
     height: 613px;
+    transition: 1s;
+}
+
+.banner-right img:hover {
+
+    transform: scale(1.3);
+    z-index: 2;
 }
 
 /*---------------------------
@@ -270,9 +283,20 @@ hr {
     }
 
     .button-item {
-        float: left;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         margin-bottom: 60px;
         margin-top: -20px;
+        background-color: white;
+    }
+
+    .white-btn {
+        width: 150px;
+    }
+
+    .btn-blog {
+        width: 150px;
     }
 
     .banner-left {
